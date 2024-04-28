@@ -1,0 +1,101 @@
+.table-wrapper {
+  width: 100%;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: auto;
+  /* border-collapse: collapse; */
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: 100em;
+  max-width: 80%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.table thead {
+  background-color: #ccc;
+  color: #222;
+}
+
+.table th,
+.table td {
+  padding: 0.8rem;
+}
+
+.table td {
+  border-top: 0.5px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table tbody tr:hover {
+  background-color: #eee;
+}
+
+.expand {
+  width: 100%;
+}
+
+.label {
+  border-radius: 3px;
+  padding: 0.3rem;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions svg {
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #e10d05;
+}
+
+.error {
+  background-color: #f8d7d8;
+  color: red;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.model-container {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  column-count: 2;
+  width: 400px;
+}
+
+.forms {
+  display: inline-block;
+  margin-top: 20px;
+}
+.field {
+  width: 500px;
+}
+.btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
